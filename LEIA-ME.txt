@@ -1,0 +1,13 @@
+ESTUDOS UFMS — 324 + 510 | OITO SEMANAS
+
+Versão com sincronização Wi-Fi direta, sem conta e sem nuvem. Leia SINCRONIZACAO_WIFI.txt.
+
+Todas as aulas, revisões, simulados e 300 questões básicas foram preservados. Questões autorais, não oficiais. Confirme legislação e edital nas fontes oficiais. O relatório de revisão anterior permanece no pacote.
+
+Abra o HTML único para uso offline ou mantenha os arquivos deste ZIP juntos. Exporte o progresso antes de mudar de versão.
+
+Validação desta atualização: sintaxe JavaScript e troca bidirecional simulada por canal de dados, incluindo fragmentação, combinação de registros, tentativa de simulado e deduplicação. A navegação em navegador real foi bloqueada pela política do ambiente de teste; o pareamento físico entre aparelhos ainda precisa ser verificado.
+
+Atualização manual r2: leia ATUALIZACAO_MANUAL.txt. A versão HTML única é fornecida separadamente.
+
+Versão r3: painel de domínio 0–1000, meta 800, XP, sequência diária de 5 questões distintas no jogo, diagnóstico por matéria e conceito e treino personalizado. Os indicadores são recalculados dos eventos existentes, incluindo backups e sincronização Wi-Fi. A nota não é uma previsão da prova.

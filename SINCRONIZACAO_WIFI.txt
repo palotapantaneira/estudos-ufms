@@ -1,0 +1,22 @@
+ESTUDOS UFMS — SINCRONIZAÇÃO LOCAL POR WI-FI
+
+Não precisa de hospedagem, banco de dados externo, cadastro ou servidor local. O HTML completo contém os oito módulos semanais e o banco de perguntas e pode ser aberto offline, sujeito ao suporte do navegador. Vídeos externos e extração de PDF via biblioteca externa ainda precisam de internet.
+
+ANTES DE ATUALIZAR
+Se já estudou na versão antiga, abra Configurações > Exportar progresso e salve o JSON. Abra a nova versão no navegador e importe esse arquivo. Navegadores podem separar os dados de arquivos HTML diferentes. O backup antigo inclui histórico e anotações, mas não a tentativa de simulado em andamento nem PDFs binários. Guarde a versão antiga se precisar deles.
+
+CONECTAR DOIS APARELHOS
+1. Abra o novo HTML no navegador de cada aparelho. Use a mesma rede Wi-Fi confiável; a internet não é necessária. Evite a rede de convidados, que pode isolar aparelhos.
+2. Abra Configurações > Sincronização por Wi-Fi no aparelho A. Toque em Gerar convite. Copie ou compartilhe o código completo com o B (por Quick Share, por exemplo, se disponível).
+3. No B, cole o convite em Código recebido do outro aparelho. Toque em Responder convite. Copie ou compartilhe a resposta com o A.
+4. No A, cole a resposta e toque em Concluir conexão. Aguarde o estado conectado nos dois.
+5. Toque em Sincronizar agora em um deles, mantendo os dois aplicativos abertos até a conclusão. A troca é bidirecional. Para um terceiro aparelho, encerre a conexão e repita o pareamento. Quando fechar ou recarregar o aplicativo, precisará parear novamente.
+
+O QUE É COMBINADO
+Histórico de aulas, tarefas, respostas, erros, horas registradas, anotações, destaques, metadados e texto extraído dos materiais, links personalizados, nome e estado dos quatro simulados. Eventos são identificados por ID e não são duplicados. Edições simultâneas do mesmo registro usam a versão mais recente (mantenha relógios corretos). Evite editar a mesma anotação ou tentativa nos dois aparelhos antes de sincronizar. O cronômetro de estudo ativo, partidas e questionários de fixação em andamento e arquivos PDF originais não são transferidos. Resultados e respostas já registradas permanecem no histórico.
+
+SEGURANÇA E LIMITES
+WebRTC usa conexão criptografada, sem STUN/TURN externo. O convite e resposta devem ser trocados somente com o aparelho de confiança. Não é necessário expor portas no roteador. Alguns navegadores, redes isoladas ou políticas de privacidade impedem conexões diretas; nesse caso, use Exportar progresso > transferir JSON > Importar JSON. Não apague o arquivo antigo antes de verificar o progresso importado. O backup da nova versão inclui o estado dos simulados. Não transfere credenciais nem PDFs binários. Não há sincronização automática em segundo plano.
+
+PACOTE PWA
+O ZIP inclui o código separado. Se abrir pelo index.html, mantenha todos os arquivos juntos. O HTML único é a opção mais simples para uso offline. A PWA instalável requer contexto seguro (por exemplo, localhost ou HTTPS); nenhum site público é necessário para o HTML único.

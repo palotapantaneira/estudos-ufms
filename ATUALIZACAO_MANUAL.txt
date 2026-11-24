@@ -1,0 +1,8 @@
+ESTUDOS UFMS — ATUALIZAÇÃO MANUAL | 2026.11.24-r4
+
+1. Na versão anterior: Configurações > Exportar progresso (JSON). Guarde também os PDFs originais. Termine a partida ou exercício em andamento. Na versão r2 e posteriores, use Preparar atualização · baixar backup para guardar também os cronômetros salvos.
+2. Baixe a nova versão e abra o HTML completo. Se usar o pacote PWA, extraia todos os arquivos juntos; se servido localmente, mantenha a mesma origem e substitua a pasta inteira. Não apague os dados do navegador.
+3. Na versão nova: Configurações > Atualização manual > Restaurar backup. Selecione o JSON. Confirme e confira os dados. Backups v1/v2 anteriores continuam aceitos; eles não possuem cronômetros salvos.
+4. Só descarte o arquivo antigo após verificar o progresso. PDFs binários ficam no dispositivo/navegador de origem; preserve os originais. O backup não contém o código do aplicativo.
+
+Não exige servidor externo, login ou internet para a restauração. O navegador não permite ao HTML substituir a si mesmo; não há atualização automática. Wi-Fi permanece disponível para sincronizar os registros entre aparelhos. Dados com a mesma identidade são combinados; alterações concorrentes usam a versão mais recente. Cronômetros já existentes no destino são preservados sempre que possível; a restauração pausa o cronômetro importado. Partidas abertas não são transferidas. Não publique o arquivo de backup, pois contém dados pessoais de estudo.

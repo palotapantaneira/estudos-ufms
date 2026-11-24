@@ -1,0 +1,31 @@
+{
+  "name": "Estudos UFMS — 324 + 510",
+  "short_name": "Estudos UFMS",
+  "description": "Cronograma, estudos, questões, caderno de erros e revisões adaptativas para o concurso UFMS 2027",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f9faf8",
+  "theme_color": "#f9faf8",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
