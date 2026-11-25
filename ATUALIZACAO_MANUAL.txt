@@ -1,8 +1,7 @@
-ESTUDOS UFMS — ATUALIZAÇÃO MANUAL | 2026.11.24-r4
-
-1. Na versão anterior: Configurações > Exportar progresso (JSON). Guarde também os PDFs originais. Termine a partida ou exercício em andamento. Na versão r2 e posteriores, use Preparar atualização · baixar backup para guardar também os cronômetros salvos.
-2. Baixe a nova versão e abra o HTML completo. Se usar o pacote PWA, extraia todos os arquivos juntos; se servido localmente, mantenha a mesma origem e substitua a pasta inteira. Não apague os dados do navegador.
-3. Na versão nova: Configurações > Atualização manual > Restaurar backup. Selecione o JSON. Confirme e confira os dados. Backups v1/v2 anteriores continuam aceitos; eles não possuem cronômetros salvos.
-4. Só descarte o arquivo antigo após verificar o progresso. PDFs binários ficam no dispositivo/navegador de origem; preserve os originais. O backup não contém o código do aplicativo.
-
-Não exige servidor externo, login ou internet para a restauração. O navegador não permite ao HTML substituir a si mesmo; não há atualização automática. Wi-Fi permanece disponível para sincronizar os registros entre aparelhos. Dados com a mesma identidade são combinados; alterações concorrentes usam a versão mais recente. Cronômetros já existentes no destino são preservados sempre que possível; a restauração pausa o cronômetro importado. Partidas abertas não são transferidas. Não publique o arquivo de backup, pois contém dados pessoais de estudo.
+ATUALIZAÇÃO R5 — não apague a versão antiga antes de conferir o progresso.
+1. Na R4: Configurações > Preparar atualização — baixar backup.
+2. Guarde o JSON no seu dispositivo. Não o publique no GitHub.
+3. Substitua os arquivos no mesmo local de publicação do GitHub Pages, ou abra o novo HTML avulso.
+4. Reabra a R5 online, confirme o número de versão e os dados. Se necessário, restaure o JSON em Configurações > Restaurar backup.
+5. Guarde os PDFs originais à parte. O backup não contém PDF binário nem questões/partidas em andamento.
+6. Para atualizar somente conteúdo na R5: Configurações > Importar atualização de conteúdo. O formato aceito é ufms-content-r5 (consulte RELATORIO_R5.md).

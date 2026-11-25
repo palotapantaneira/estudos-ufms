@@ -10,7 +10,7 @@
 <div class="shell">
  <aside class="sidebar" id="sidebar" aria-label="Navegação principal">
   <div class="brand"><div class="brandmark">U</div><div><strong>Estudos UFMS</strong><span>Concurso 2027 · 324 + 510</span></div></div>
-  <div class="workspace"><span class="workspace-dot"></span><span>Espaço de estudos</span><span class="workspace-tag">PWA</span></div>
+  <div class="workspace"><span class="workspace-dot"></span><span>Espaço de estudos</span><span class="workspace-tag">R5</span></div>
   <div class="nav-label">ORGANIZAÇÃO</div>
   <nav id="navigation">
     <button data-route="home" class="navitem active"><span class="navicon">⌂</span>Visão geral</button>
@@ -24,12 +24,16 @@
   <div class="sidebar-bottom"><div class="exam-date">17 DE JANEIRO DE 2027</div><div id="sidebar-count" class="count-large">— dias</div><span class="muted">até as duas provas</span></div>
  </aside>
  <div class="mainwrap">
-  <header class="topbar"><button class="mobile-menu icon-btn" id="menu-toggle" aria-label="Abrir menu">☰</button><div class="breadcrumbs" id="breadcrumbs">Início <span> / </span> Visão geral</div><div class="top-actions"><span id="study-timer-slot" aria-live="off"></span><span class="connection-indicator" id="connection-label">Offline</span><button class="outline small" id="account-btn" data-route="settings">Configurações</button></div></header>
+  <header class="topbar"><button class="mobile-menu icon-btn" id="menu-toggle" aria-label="Abrir ou fechar menu" aria-expanded="false" aria-controls="sidebar">☰</button><div class="breadcrumbs" id="breadcrumbs">Início <span> / </span> Visão geral</div><div class="top-actions"><span id="study-timer-slot" aria-live="off"></span><span class="connection-indicator" id="connection-label">Offline</span><button class="outline small" id="account-btn" data-route="settings">Configurações</button></div></header>
   <main id="app" aria-live="polite"></main>
  </div>
 </div>
 <div class="toast" id="toast" role="status"></div>
 <div class="bottom-nav" id="bottom-nav"><button data-route="home">⌂<span>Hoje</span></button><button data-route="plan">▦<span>Plano</span></button><button data-route="learning">▤<span>Aulas</span></button><button data-route="game">◈<span>Jogo</span></button><button data-route="review">↺<span>Revisão</span></button><button data-route="library">▣<span>Arquivos</span></button></div>
-<script src="schedule.js"></script><script src="lessons.js"></script><script src="lessons_extra.js"></script><script src="game_questions.js"></script><script src="app.js"></script>
+<div id="r5-menu-shade" hidden aria-label="Fechar menu"></div>
+<aside id="r5-timer-notice" hidden role="status" aria-live="polite"></aside>
+<aside id="r5-law-panel" hidden aria-label="Consulta à legislação"></aside>
+<div id="r5-pair-modal" hidden role="dialog" aria-modal="true" aria-label="Pareamento de dispositivos"></div>
+<script src="schedule.js"></script><script src="lessons.js"></script><script src="lessons_extra.js"></script><script src="game_questions.js"></script><script src="r5_content.js"></script><script src="qr_local.js"></script><script src="app.js"></script>
 </body>
 </html>

@@ -1,13 +1,9 @@
-ESTUDOS UFMS — 324 + 510 | OITO SEMANAS
+ESTUDOS UFMS — R5 (2026.11.25-r5)
 
-Versão com sincronização Wi-Fi direta, sem conta e sem nuvem. Leia SINCRONIZACAO_WIFI.txt.
+Leia RELATORIO_R5.md antes de atualizar. O app mantém o cronograma, os IDs originais e os dados de estudo da R4.
 
-Todas as aulas, revisões, simulados e 300 questões básicas foram preservados. Questões autorais, não oficiais. Confirme legislação e edital nas fontes oficiais. O relatório de revisão anterior permanece no pacote.
+GITHUB PAGES: faça backup na versão antiga. Extraia o ZIP, envie os ARQUIVOS DE DENTRO desta pasta ao mesmo repositório/pasta publicada, substitua os arquivos antigos, aguarde a publicação e reabra o app online. Confira a versão R5 nas configurações e seu progresso. NÃO envie seu JSON de progresso ao GitHub. Se necessário, restaure o backup na R5.
 
-Abra o HTML único para uso offline ou mantenha os arquivos deste ZIP juntos. Exporte o progresso antes de mudar de versão.
+O QR Code usa sinalização externa opcional PeerJS/STUN e precisa de conexão online, HTTPS e permissões de câmera. A transferência JSON permanece disponível. O QR ainda precisa de teste em dispositivos reais.
 
-Validação desta atualização: sintaxe JavaScript e troca bidirecional simulada por canal de dados, incluindo fragmentação, combinação de registros, tentativa de simulado e deduplicação. A navegação em navegador real foi bloqueada pela política do ambiente de teste; o pareamento físico entre aparelhos ainda precisa ser verificado.
-
-Atualização manual r2: leia ATUALIZACAO_MANUAL.txt. A versão HTML única é fornecida separadamente.
-
-Versão r3: painel de domínio 0–1000, meta 800, XP, sequência diária de 5 questões distintas no jogo, diagnóstico por matéria e conceito e treino personalizado. Os indicadores são recalculados dos eventos existentes, incluindo backups e sincronização Wi-Fi. A nota não é uma previsão da prova.
+PWA: mantenha o mesmo endereço, manifest e ícones. Os arquivos necessários são index.html, styles.css, schedule.js, lessons.js, lessons_extra.js, game_questions.js, r5_content.js, qr_local.js, app.js, sw.js, manifest.webmanifest e os três ícones.
