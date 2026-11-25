@@ -1,7 +1,1 @@
-ATUALIZAÇÃO R5 — não apague a versão antiga antes de conferir o progresso.
-1. Na R4: Configurações > Preparar atualização — baixar backup.
-2. Guarde o JSON no seu dispositivo. Não o publique no GitHub.
-3. Substitua os arquivos no mesmo local de publicação do GitHub Pages, ou abra o novo HTML avulso.
-4. Reabra a R5 online, confirme o número de versão e os dados. Se necessário, restaure o JSON em Configurações > Restaurar backup.
-5. Guarde os PDFs originais à parte. O backup não contém PDF binário nem questões/partidas em andamento.
-6. Para atualizar somente conteúdo na R5: Configurações > Importar atualização de conteúdo. O formato aceito é ufms-content-r5 (consulte RELATORIO_R5.md).
+R6: faça backup do progresso em cada aparelho. Extraia o ZIP e envie os arquivos de dentro de UFMS_Estudos para a mesma pasta e branch do GitHub Pages. Não envie seu JSON. Confirme Commit changes, aguarde a publicação, abra o site no Chrome e reabra o PWA. Confira a versão 2026.11.25-r6. Leia RELATORIO_R6.md.

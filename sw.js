@@ -1,5 +1,5 @@
-const CACHE='ufms-estudos-r5-20261125-v1';
-const ASSETS=['./','./index.html','./styles.css','./app.js','./schedule.js','./lessons.js','./lessons_extra.js','./game_questions.js','./r5_content.js','./qr_local.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
+const CACHE='ufms-estudos-r6-20261125-v1';
+const ASSETS=['./','./index.html','./styles.css','./app.js','./schedule.js','./lessons.js','./lessons_extra.js','./game_questions.js','./r5_content.js','./qr_local.js','./r6_game.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS.map(u=>new Request(u,{cache:'reload'})))).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('ufms-estudos-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(e.request.method!=='GET'||u.origin!==self.location.origin)return;e.respondWith(caches.open(CACHE).then(async c=>{const saved=await c.match(e.request,{ignoreSearch:true});if(saved)return saved;try{const r=await fetch(e.request);if(r.ok&&u.pathname.startsWith(new URL('./',self.location.href).pathname))c.put(e.request,r.clone());return r}catch{if(e.request.mode==='navigate')return await c.match('./index.html')||Response.error();return Response.error()}}))});
